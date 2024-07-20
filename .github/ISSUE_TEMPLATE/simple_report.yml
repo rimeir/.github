@@ -15,7 +15,7 @@ body:
     attributes:
       label: 어떤 문제인가요?
       description: 문제상황을 알려주세요.
-      placeholder: 도커를 실행할 수 없습니다. zsh: command `docker` not found!
+      placeholder: 도커를 실행할 수 없습니다. zsh: command docker not found!
     validations:
       required: true
   - type: textarea
