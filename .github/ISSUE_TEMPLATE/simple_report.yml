@@ -15,10 +15,7 @@ body:
     attributes:
       label: 어떤 문제인가요?
       description: 문제상황을 알려주세요.
-      placeholder: 
-        도커를 실행할 수 없습니다.
-        zsh:command "docker" not found!
-      value: "A bug happened!"
+      placeholder: 도커를 실행할 수 없습니다. zsh: command "docker" not found!
     validations:
       required: true
   - type: textarea
@@ -26,24 +23,20 @@ body:
     attributes:
       label: 어떻게 재현하나요?
       description: 버그 재현방법을 알려주세요.
-      placeholder: 
-        1. 터미널을 켭니다.
-        1. docker ps를 입력합니다.
-      value: "A bug happened!"
+      placeholder: 1. 터미널을 켭니다. 2. docker ps를 입력합니다.
     validations:
       required: true
   - type: dropdown
-    id: part
+    id: urgency
     attributes:
       label: 얼마나 빠르게 해결해야하나요?
       multiple: true
       options:
-        multiple: true
-        - 정말급함 (해결해야 다음 작업이 진행가능)
+        - 정말 급함 (해결해야 다음 작업이 진행가능)
         - 빠르게 해결해야함
         - 당장 해결하지 않아도 됨 (잠재적 영향이 있을 수 있음)
   - type: textarea
-    id: correct
+    id: correct
     attributes:
       label: 기대되는 동작을 알려주세요.
       description: 정상적으로 동작했을때 어떤 결과가 나와야되는지 알려주세요.
