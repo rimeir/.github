@@ -22,10 +22,15 @@ body:
     id: how-replay
     attributes:
       label: 어떻게 재현하나요?
-      description: 버그 재현방법을 알려주세요.
+      description: 버그의 재현방법을 알려주세요.
       placeholder: 1. 터미널을 켭니다. 2. docker ps를 입력합니다.
     validations:
       required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: 기대되는 동작을 알려주세요.
+      description: 정상적으로 동작했을때 어떤 결과가 나와야되는지 알려주세요.
   - type: dropdown
     id: urgency
     attributes:
@@ -35,8 +40,3 @@ body:
         - 정말 급함 (해결해야 다음 작업이 진행가능)
         - 빠르게 해결해야함
         - 당장 해결하지 않아도 됨 (잠재적 영향이 있을 수 있음)
-  - type: textarea
-    id: correct
-    attributes:
-      label: 기대되는 동작을 알려주세요.
-      description: 정상적으로 동작했을때 어떤 결과가 나와야되는지 알려주세요.
