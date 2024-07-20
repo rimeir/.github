@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: 양식이 싫은 분들을 위한 커스텀 작성 파일입니다.
 title: ''
 labels: bug
 assignees: ''
