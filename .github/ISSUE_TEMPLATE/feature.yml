@@ -15,14 +15,16 @@ body:
     attributes:
       value: |
         ## 🔨 상세 작업 내용
-
   - type: checkboxes
     attributes:
+      label: 작업 목록
       options:
-        - 작업1
-        - 작업2
-        - 작업3
-
+        - label: 작업1
+          required: false
+        - label: 작업2
+          required: false
+        - label: 작업3
+          required: false
   - type: markdown
     attributes:
       value: |
