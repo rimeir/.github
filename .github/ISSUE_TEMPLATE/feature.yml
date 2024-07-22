@@ -16,7 +16,7 @@ body:
       value: |
         ## 🔨 상세 작업 내용
 
-  - type: checklist
+  - type: checkboxes
     attributes:
       options:
         - 작업1
