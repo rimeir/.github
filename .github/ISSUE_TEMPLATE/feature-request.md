@@ -1,7 +1,7 @@
 ---
 name: feature request
 about: feature request
-title: "[feat] ex. 소셜 로그인 개발"
+title: ex. [feat] 소셜 로그인 개발
 labels: feat
 assignees: ''
 
