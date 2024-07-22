@@ -5,16 +5,16 @@ labels: ['feat']
 assignees: []
 
 body:
+  - type: input
+    attributes:
+      label: 구현할 기능
+      description: ex) 소셜 로그인 기능을 개발합니다.
+      placeholder: 여기에 구현할 기능을 입력하세요.
   - type: textarea
     attributes:
-      value: |
-        🤷 구현할 기능
-        
-        ex) 소셜 로그인 기능을 개발합니다.
-  - type: textarea
-    attributes:
-      value: |
-       🔨 상세 작업 내용
+      label: 상세 작업 내용
+      description: 작업 내용을 작성하세요.
+      placeholder: 작업1, 작업2, 작업3
   - type: checkboxes
     attributes:
       label: 작업 목록
@@ -25,9 +25,8 @@ body:
           required: false
         - label: 작업3
           required: false
-  - type: textarea
+  - type: input
     attributes:
-      value: |
-        ⏰ 예상 소요 기간
-        
-        ex) 8시간
+      label: 예상 소요 기간
+      description: ex) 8시간
+      placeholder: 예상 소요 기간을 입력하세요.
