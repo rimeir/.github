@@ -1,5 +1,5 @@
-name: quick-issue-template🚀
-description: issue-template
+name: quick-feature-template🚀
+description: feature-template
 title: '[feat] 소셜 로그인 개발'
 labels: ['feat']
 assignees: []
@@ -19,11 +19,11 @@ body:
     attributes:
       label: 작업 목록
       options:
-        - label: 작업1
+        - label:
           required: false
-        - label: 작업2
+        - label:
           required: false
-        - label: 작업3
+        - label:
           required: false
   - type: input
     attributes:
