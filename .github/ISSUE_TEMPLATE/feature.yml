@@ -5,16 +5,16 @@ labels: ['feat']
 assignees: []
 
 body:
-  - type: markdown
+  - type: textarea
     attributes:
       value: |
-        ## 🤷 구현할 기능
+        🤷 구현할 기능
         
         ex) 소셜 로그인 기능을 개발합니다.
-  - type: markdown
+  - type: textarea
     attributes:
       value: |
-        ## 🔨 상세 작업 내용
+       🔨 상세 작업 내용
   - type: checkboxes
     attributes:
       label: 작업 목록
@@ -25,9 +25,9 @@ body:
           required: false
         - label: 작업3
           required: false
-  - type: markdown
+  - type: textarea
     attributes:
       value: |
-        ## ⏰ 예상 소요 기간
+        ⏰ 예상 소요 기간
         
         ex) 8시간
