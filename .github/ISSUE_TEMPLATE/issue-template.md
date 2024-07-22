@@ -1,6 +1,6 @@
 ---
-name: feature request
-about: feature request
+name: issue-template
+about: issue-template
 title: ex. [feat] 소셜 로그인 개발
 labels: feat
 assignees: ''
