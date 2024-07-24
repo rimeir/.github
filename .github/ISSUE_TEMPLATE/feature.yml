@@ -27,6 +27,6 @@ body:
   - type: input
     id: time
     attributes:
-      label: ⌛️ 예상소요시간
+      label: ⏰ 예상소요시간
     validations:
       required: true
