@@ -1,5 +1,5 @@
 ---
-name: issue-template
+name: Issue Template
 about: issue-template
 title: ex. [feat] 소셜 로그인 개발
 labels: feat
