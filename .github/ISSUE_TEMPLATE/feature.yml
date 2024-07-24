@@ -19,9 +19,9 @@ body:
     attributes:
       label: 상세작업내용
       value: |
-        - [ ]
-        - [ ]
-        - [ ]
+        - [ ] 1.
+        - [ ] 2.
+        - [ ] 3.
     validations:
       required: true
   - type: input
