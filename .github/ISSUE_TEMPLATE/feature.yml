@@ -19,9 +19,9 @@ body:
     attributes:
       label: 상세작업내용
       value: |
-      []
-      []
-      []
+        []
+        []
+        []
     validations:
       required: true
   - type: input
@@ -30,4 +30,3 @@ body:
       label: ⌛️ 예상소요시간
     validations:
       required: true
-    
