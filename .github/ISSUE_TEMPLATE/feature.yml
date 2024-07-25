@@ -1,6 +1,6 @@
 name: Feature 🚀
 description: 새로운 기능을 빠르게 공유하세요.
-title: "[feat]: "
+title: "[feat] "
 labels: ["feature"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
