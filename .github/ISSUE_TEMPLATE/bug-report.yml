@@ -29,8 +29,8 @@ body:
   - type: textarea
     id: correct
     attributes:
-      label: 기대되는 동작을 알려주세요.
-      description: 정상적으로 동작했을때 어떤 결과가 나와야되는지 알려주세요.
+      label: 예상되는 해결책을 제시해주세요.
+      description: 구체적인 옵션을 주시면 좋습니다.
   - type: dropdown
     id: urgency
     attributes:
