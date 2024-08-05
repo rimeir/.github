@@ -19,14 +19,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: how-replay
-    attributes:
-      label: 어떻게 재현하나요?
-      description: 버그의 재현방법을 알려주세요.
-      placeholder: 1. 터미널을 켭니다. 2. docker ps를 입력합니다.
-    validations:
-      required: true
-  - type: textarea
     id: correct
     attributes:
       label: 예상되는 해결책을 제시해주세요.
