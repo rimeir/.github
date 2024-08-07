@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: 어떤 문제인가요?
+      label: 📍 문제 상황
       description: 문제상황을 알려주세요.
       placeholder: 도커를 실행할 수 없습니다. zsh command 'docker; not found!
     validations:
@@ -21,16 +21,16 @@ body:
   - type: textarea
     id: correct
     attributes:
-      label: 예상되는 해결책을 제시해주세요.
+      label: 🎯 해결 방법
       description: 구체적인 옵션을 주시면 좋습니다.
   - type: dropdown
     id: urgency
     attributes:
-      label: 얼마나 빠르게 해결해야하나요?
+      label: ⭐️ 중요도
       multiple: true
       options:
-        - 정말 급함 (해결해야 다음 작업이 진행가능)
-        - 빠르게 해결해야함
-        - 당장 해결하지 않아도 됨 (잠재적 영향이 있을 수 있음)
+        - 상 - 당장 해결해야 다음 작업이 진행가능
+        - 중 - 빠르게 해결해야함
+        - 하 - 당장 해결하지 않아도 되지만 잠재적 영향이 있을 수 있음
     validations:
       required: true
